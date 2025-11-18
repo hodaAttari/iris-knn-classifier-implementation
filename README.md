@@ -45,7 +45,7 @@ cd iris-knn-classifier
 pip install -r requirements.txt
 jupyter notebook iris.ipynb
 ```
-### requirements.txt
+### requirements
 - numpy
 - pandas
 - scikit-learn
