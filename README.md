@@ -32,6 +32,7 @@ It covers all steps from data exploration and profiling to model evaluation and 
 
 ### Example Output
 Typical model accuracy (on test split):
+
 accuracy: ~0.90
 
 weighted avg f1-score: ~0.90
@@ -45,15 +46,19 @@ pip install -r requirements.txt
 jupyter notebook iris.ipynb
 ```
 ### requirements.txt
-numpy
-pandas
-scikit-learn
-ydata-profiling
-matplotlib
-seaborn
+- numpy
+- pandas
+- scikit-learn
+- ydata-profiling
+- matplotlib
+- seaborn
 
 ### Files
+
 ├── knn.py           # Custom KNN implementation
+
 ├── iris.ipynb       # Basic KNN on Iris example
+
 ├── knn.ipynb        # Full experiment (scikit-learn + pipeline)
+
 ├── report.html      # YData profiling report
